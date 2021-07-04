@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <div class="todo__content">
+        <h1 class="todo__title">ToDo List</h1>
+        <div class="todo">
+            <form id="form" class="todo__form">
+                <input id="task" type="text">
+                <button>Agregar</button>
+            </form>
+            <div id="taskList" class="todo__list">
+            </div>
+        </div>
+    </div>
     <script src="js/app.js"></script>
 </body>
 </html>
